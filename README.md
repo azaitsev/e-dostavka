@@ -8,3 +8,14 @@ Check delivery intervals for e-dostavka.by
 4. Run like
 BOT_TOKEN=... TG_CHAT_ID=-... ZONE='Интернет-магазин 50160 Минск (Западный промузел, ТЭЦ 4), зона обслуживания А, интервал доставки 2 часа' python checker.py
 5. Add to cron
+
+
+Do you have docker installe?
+
+```
+docker run -d --restart=always \
+-e "BOT_TOKEN=..." \
+-e "TG_CHAT_ID=..." \
+-e 'ZONE=Интернет-магазин 50160 Минск (Западный промузел, ТЭЦ 4), зона обслуживания А, интервал доставки 2 часа' \
+ztsv/e-dostavka:1.0
+```
