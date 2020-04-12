@@ -82,6 +82,6 @@ def check_status(shops_data, check_zone=ZONE):
 
 
 if __name__ == '__main__':
-    print('Checking time slots')
+    print('Checking time slots for zone: {0}'.format(ZONE))
     shops_data = get_shops_data()
     check_status(shops_data)
