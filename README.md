@@ -10,7 +10,7 @@ BOT_TOKEN=... TG_CHAT_ID=-... ZONE='Интернет-магазин 50160 Мин
 5. Add to cron
 
 
-Do you have docker installe?
+## Do you have docker installed?
 
 ```
 docker run -d --restart=always \
